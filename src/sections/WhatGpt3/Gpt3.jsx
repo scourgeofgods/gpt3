@@ -28,7 +28,7 @@ const Gpt3 = () => {
             <h6 className="gradient-title">Explore The Library</h6>
           </div>
         </div>
-        <div className="row row-cols-1 row-cols-lg-3 g-4 g-lg-0 py-lg-5 py-3 ">
+        <div className="row row-cols-1 row-cols-lg-3 ">
           <div className="col">
             <h1 className="title-hr text-white">Chatbots</h1>
             <p>

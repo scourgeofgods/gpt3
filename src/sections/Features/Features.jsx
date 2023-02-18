@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <section className="section__padding " id="features">
       <div className="container-xxl">
-        <div className="row align-items-lg-start">
+        <div className="row align-items-lg-start g-3">
           <div className="col-lg-5">
             <h1 className="gradient-title ">
               The Future is Now and You Just Need To Realize It. Step into

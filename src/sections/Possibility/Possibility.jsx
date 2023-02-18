@@ -7,7 +7,7 @@ const Possibility = () => {
     <>
       <section className="section__padding" id="possibility">
         <div className=" container-xxl">
-          <div className="row align-items-center justify-content-center">
+          <div className="row align-items-center justify-content-center g-3">
             <div className=" col-lg-7 ">
               <img src={possibility} alt="" className="img-fluid" />
             </div>
