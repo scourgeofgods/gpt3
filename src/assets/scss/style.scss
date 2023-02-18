@@ -1,0 +1,16 @@
+@use './custom.scss';
+@use './components/mixin';
+@use './components/animation';
+@use './components/button.scss';
+@use '../scss/components/_utils.scss';
+//import components
+@use '../../components/navbar/navbar';
+@use '../../components/Hero/hero';
+@use '../../components/article/article';
+@use '../../components/brand/brand';
+@use '../../components/cta/cta';
+@use '../../components/feature/feature';
+
+//import sections
+@use '../../sections/Blog/blog';
+@use '../../sections/Header/header';

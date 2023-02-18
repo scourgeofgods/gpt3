@@ -1,0 +1,24 @@
+@use '../custom' as *;
+
+@mixin bg-grad {
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+}
+
+@mixin gradientTitle {
+  background: linear-gradient(
+    90deg,
+    rgba($gradient-1, 98%),
+    rgba($gradient-2, 97%)
+  );
+}
+@mixin gradient-bar {
+  background: linear-gradient(
+    110deg,
+    rgba($gradient-1, 85%),
+    rgba($gradient-2, 75%)
+  );
+}

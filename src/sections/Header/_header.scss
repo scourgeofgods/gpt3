@@ -1,0 +1,6 @@
+@use '../../assets/scss/_custom.scss' as *;
+@use '../../assets/scss/components/mixin' as *;
+
+.header {
+  @include bg-grad;
+}

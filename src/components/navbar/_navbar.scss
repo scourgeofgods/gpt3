@@ -1,0 +1,38 @@
+@use '../../assets/scss/_custom.scss' as *;
+.custom-navbar {
+  padding: 2rem 6rem;
+  .navbar-toggler {
+    color: $white;
+
+    border: none;
+    &:active,
+    &:focus {
+      box-shadow: none;
+      border: none;
+    }
+  }
+  .navbar-brand {
+    margin-right: 2rem;
+    img {
+      width: 62px;
+      height: 16px;
+    }
+  }
+  .custom-navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $white;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        text-transform: capitalize;
+        cursor: pointer;
+        margin: 0 1rem;
+        transition: all 0.45s ease-out;
+        &:hover {
+          color: $btnColor;
+        }
+      }
+    }
+  }
+}

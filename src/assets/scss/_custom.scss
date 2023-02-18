@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+$gradient-1: #ae67fa;
+$gradient-2: #f49867;
+$bg: #040c18;
+$footer-bg: #031b34;
+$blog: #042c54;
+$text: #81afdd;
+$subtext: #ff8a71;
+$white: #ffffff;
+$dark: #000;
+$btnColor: #ff4820;
+$body-bg: $bg;
+$body-color: $text;
+$enable-gradients: true;
+$enable-negative-margins: true;
+
+$primary: $blog;
+$secondary: $subtext;
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px,
+  xxl: 1440px,
+);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';

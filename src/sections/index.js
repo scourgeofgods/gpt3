@@ -1,0 +1,6 @@
+export { default as Blog } from '../sections/Blog/Blog'
+export { default as Features } from '../sections/Features/Features'
+export { default as Footer } from '../sections/Footer/Footer'
+export { default as Header } from '../sections/Header/Header'
+export { default as Possibility } from '../sections/Possibility/Possibility'
+export { default as WhatGpt3 } from '../sections/WhatGpt3/Gpt3'

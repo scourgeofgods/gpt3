@@ -1,0 +1,51 @@
+@use '../components/mixin' as *;
+@use '../custom' as *;
+.gradient-title {
+  @include gradientTitle;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grad-bg {
+  @include gradient-bar;
+}
+.py-9 {
+  padding-top: 9rem;
+  padding: 9rem;
+}
+
+.title-hr {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    @include gradientTitle;
+  }
+}
+
+.section__padding {
+  padding: 9rem 6rem;
+}
+.section__margin {
+  margin: 6rem 6rem;
+}
+@media (max-width: $md) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+@media (max-width: $sm) {
+  .section__padding {
+    padding: 2rem 1rem;
+  }
+  .section__margin {
+    margin: 2rem 1rem;
+  }
+}
